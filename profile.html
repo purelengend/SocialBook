@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - SocialBook</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/1806f16a16.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="./images/logo.png" class="logo">
+            <ul>
+                <li><img src="./images/notification.png"></li>
+                <li><img src="./images/inbox.png"></li>
+                <li><img src="./images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./images/profile-pic.png">
+            </div>
+        </div>
+        <!-- Setting Menu-->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span>
+                </span>
+            </div>
+
+            <div class="user-profile">
+                <img src="./images/profile-pic.png">
+                <div>
+                    <p>John Nicholson</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="./images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="./images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./images/help.png" class="settings-icon">
+                <a href="#">Helping & Support <img src="./images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./images/display.png" class="settings-icon">
+                <a href="#">Display % Accessibility <img src="./images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="./images/logout.png" class="settings-icon">
+                <a href="#">Logout <img src="./images/arrow.png" width="10px"></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Page-->
+
+    <div class="profile-container">
+        <img src="./images/cover.png" class="cover-img">
+        <div class="profile-details">
+
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./images/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack 97</h3>
+                        <p>6802 Friends - 120 mutual</p>
+                        <img src="./images/member-1.png" alt="">
+                        <img src="./images/member-2.png" alt="">
+                        <img src="./images/member-3.png" alt="">
+                        <img src="./images/member-4.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                
+                    <button type="button"> <img src="./images/add-friends.png" alt=""> Friend </button>
+                    <button type="button"> <img src="./images/message.png" alt=""> Message  </button>
+                    <br>
+                    <a href="#"> <img src="./images/more.png"> </a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">
+                        Belive in yourself and you can do unbelievable things.
+                        <img src="./images/feeling.png">
+                    </p>
+                    <hr>
+                    <ul>
+                        <li><img src="./images/profile-job.png"> Hacker at Anonymous Ulc</li>
+                        <li><img src="./images/profile-study.png"> Studied at Hogwarts University</li>
+                        <li><img src="./images/profile-study.png"> Went to Area 51</li>
+                        <li><img src="./images/profile-home.png"> Live in Da Nang, Vietnam</li>
+                        <li><img src="./images/profile-location.png"> From Mixi with love</li>
+                       
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="./images/photo1.png"></div>
+                        <div><img src="./images/photo2.png"></div>
+                        <div><img src="./images/photo3.png"></div>
+                        <div><img src="./images/photo4.png"></div>
+                        <div><img src="./images/photo5.png"></div>
+                        <div><img src="./images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>6802 (120 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="./images/member-1.png"><p>Joseph J</p></div>
+                        <div><img src="./images/member-2.png"><p>Nathan L</p></div>
+                        <div><img src="./images/member-3.png"><p>George W</p></div>
+                        <div><img src="./images/member-4.png"><p>Francis L</p></div>
+                        <div><img src="./images/member-5.png"><p>Anthony D</p></div>
+                        <div><img src="./images/member-6.png"><p>Michael J</p></div>
+                        <div><img src="./images/member-7.png"><p>Edward G</p></div>
+                        <div><img src="./images/member-8.png"><p>Brandon F</p></div>
+                        <div><img src="./images/member-9.png"><p>Jamie O</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fas fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+                    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                        <div class="add-post-link">
+                            <a href="#"><img src="./images/live-video.png"> <span>Live Video</span></a>
+                            <a href="#"><img src="./images/photo.png"> <span>Photo/Video</span></a>
+                            <a href="#"><img src="./images/feeling.png"> <span>Feeling/Activity</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 26 2021, 8:38 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Subscibe <span>@Nozaki</span> Youtube Channel and <span>@FPT_DN Prime</span> Youtube Channel to watch 
+                        more video on website development and UI design
+                        <a href="#">#Nozaki</a>
+                        <a href="#">#FPT_DNPrime</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="./images/feed-image-1.png" class="post-img">
+
+           
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 22506 </div>
+                            <div><img src="./images/comments.png"> 10791</div>
+                            <div><img src="./images/share.png"> 4765</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="./images/profile-pic.png">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 26 2021, 8:38 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Like and share these youtube channels: <span>@Nozaki</span> <span>@FPT_DN Prime</span> 
+                        
+                        <a href="#">#Nozaki</a>
+                        <a href="#">#FPT_DNPrime</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="./images/feed-image-2.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 20656 </div>
+                            <div><img src="./images/comments.png"> 9153</div>
+                            <div><img src="./images/share.png"> 3518</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="./images/profile-pic.png">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 26 2021, 8:38 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Like and share these youtube channels: <span>@Nozaki</span> <span>@FPT_DN Prime</span> 
+                        
+                        <a href="#">#Nozaki</a>
+                        <a href="#">#FPT_DNPrime</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="./images/feed-image-3.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 20656 </div>
+                            <div><img src="./images/comments.png"> 9153</div>
+                            <div><img src="./images/share.png"> 3518</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="./images/profile-pic.png">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 26 2021, 8:38 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Like and share these youtube channels: <span>@Nozaki</span> <span>@FPT_DN Prime</span> 
+                        
+                        <a href="#">#Nozaki</a>
+                        <a href="#">#FPT_DNPrime</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="./images/feed-image-4.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 20656 </div>
+                            <div><img src="./images/comments.png"> 9153</div>
+                            <div><img src="./images/share.png"> 3518</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="./images/profile-pic.png">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>September 26 2021, 8:38 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Like and share these youtube channels: <span>@Nozaki</span> <span>@FPT_DN Prime</span> 
+                        
+                        <a href="#">#Nozaki</a>
+                        <a href="#">#FPT_DNPrime</a>
+                        <a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="./images/feed-image-5.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png"> 20656 </div>
+                            <div><img src="./images/comments.png"> 9153</div>
+                            <div><img src="./images/share.png"> 3518</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="./images/profile-pic.png">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2021 - Nozaki Youtube Channel</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
